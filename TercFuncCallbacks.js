@@ -1,7 +1,10 @@
-function acaoCarro
-function andar("o carro está andando") {
-    
+let  andar  =  ( )  =>  console . log ( "O carro está andando!" )
+
+let  parar  =  ( )  =>  console . log ( "O carro parou" )
+
+function  acaoCarro ( funcao1 ,  funcao2 ) {
+    funcao1 ( ) ;
+    funcao2 ( ) ;
 }
-function parar("o carro parou") {
-    
-}
+
+acaoCarro ( andar ,  parar ) ;
